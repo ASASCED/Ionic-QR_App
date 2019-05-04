@@ -9,7 +9,6 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 // NATIVE
 import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
 import { Contacts } from '@ionic-native/contacts/ngx';
-import { EmailComposer } from '@ionic-native/email-composer/ngx';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -35,8 +34,7 @@ import { AgmCoreModule } from '@agm/core';
     BarcodeScanner,
     HistorialService,
     InAppBrowser,
-    Contacts,
-    EmailComposer
+    Contacts
   ],
   bootstrap: [AppComponent]
 })
